@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #070808;
+    color: white;
+    height: 80 em;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar-left, .sidebar-right {
+    width: 20%;
+    padding: 1rem;
+    background-color: #121416;
+  }
+  
+  .sidebar-left ul, .sidebar-right ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-left ul li, .sidebar-right ul li {
+    margin: 1rem 0;
+  }
+  
+  .tweet-btn {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .main-content {
+    width: 60%;
+    padding: 1rem;
+  }
+  
+  .tweet-box textarea {
+    width: 100%;
+    padding: 1rem;
+    background-color: #050607;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .tweet-post-btn {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .tweets .tweet {
+    background-color: #050607;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    background-color:black;
+    color: #8899A6;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #2F3336;
+    position: relative;
+  }
+  
+  
+  
+  .footer-links {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a {
+    color: #1DA1F2;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
